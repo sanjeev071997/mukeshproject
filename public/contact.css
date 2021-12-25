@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* AdderssInfo */
+.adderss-h1{
+    margin-top: 3%;
+    background-color:rgb(145, 30, 74);
+    color: #fff;
+    width: fit-content;
+    font-weight: bold;
+}
+label .form-title{
+    font-size: 17px;
+    font-weight: 600;
+}
+.AdderssInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    color: black;
+    padding: 30px 60px;
+    line-height: 35px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow:
+         inset 0 -3em 3em rgba(0,0,0,0.1),
+               0 0  0 2px rgb(255,255,255),
+               0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+  
+.hover:hover{
+    /* background-color: black; */
+    background:linear-gradient(to right, #1a0a04,#5a1874d7);
+    color: #fff;
+    padding: 35px 65px;
+    /* line-height: 35px; */
+    border-radius: 12px;
+    transition: all 0.4s ease-in-out;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.Adderss-icon{
+    font-size: 20px;
+    margin-right: 3%;
+    cursor: pointer;
+}
+.adderss-details-number{
+    line-height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.Adderss-title {
+    font-size: 20px;
+    margin-right: 2%;
+    color: rgb(145, 30, 74);
+    cursor: pointer;
+}
+.adderss-details{
+    font-size: 20px;
+    cursor: pointer;
+}
+.info{
+    margin-top: 40%;
+}
+
+
+.name{
+    width:100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+.name i {
+    position: absolute;
+    top: 65%;
+    left:30px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #bbb;
+}
+.name input{
+    width: 100%;
+    padding: 15px 60px;
+    border: none;
+    outline:none;
+    font-size: 18px;
+    background-color: #eee;
+    border-radius: 8px;
+}
+.name input::placeholder{
+    color: #bbb;
+    font-weight: 500;
+}
+.message-box {
+    width:100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+.message-box textarea{
+    width: 100%;
+    padding: 15px 60px;
+    border: none;
+    outline:none;
+    font-size: 18px;
+    background-color: #eee;
+    border-radius: 8px;
+}
+.email textarea::placeholder{
+    color: #bbb;
+    font-weight: 500;
+    left: 30px;
+}
+.button {
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.button button{
+    font-weight: bold;
+    width: 100%;
+    padding: 15px;
+    color:#fff;
+    background-color: rgb(145, 30, 74);
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.message {
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+.message .success{
+    font-size: 20px;
+    color: green;
+    position: absolute;
+    animation:  button .1s linear;
+    display: none;
+}
+.message .danger{
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    animation:  button .3s linear;
+    transition: .3s;
+    display: none;
+}
+
+@keyframes button {
+    0%{
+        transform: scale(0.1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+
+
